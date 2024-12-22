@@ -5,7 +5,7 @@ Wacław Szpakowski (1883–1973) was a Polish architect and artist renowned for 
 An example of Szpakowski's work. B9 1926.
 
 ![Wacław Szpakowski B9 3D printed](images/b9.jpg)
-The 3D printed version of B9.
+3D printed version of B9.
 
 The code in this repository takes in a list of points and generates gcode which can be printed on a 3D printer.
 
@@ -25,7 +25,7 @@ Visualisation of the gcode in Orca Slicer.
 
 ## Tips/Notes
 - I used a Hilbert Curve top fill pattern for the base. This gives it a little texture and, to my eye, looks better than the normal diagional lines. Although it is significantly slower.
--
+- Gcode editors (at least Orca Slicer) do not correctly show the width of lines. So if your lines look too thick or thick, don't worry too much. You can always do a small test print so see if things are to your liking.
 
 ## Files In This Repository
 - `b9_base.3mf`: A sliced version of the base for the B9 artwork. It is setup for a Bambu Lab P1 printer.
