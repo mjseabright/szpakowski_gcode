@@ -2,7 +2,10 @@
 Wacław Szpakowski (1883–1973) was a Polish architect and artist renowned for his work in abstract line art. His drawings, created using a single continuous line, explored geometric forms and patterns. I wanted to realise some of his works via 3D printing. The concept of single line art translates well to 3D printing in the form of a single continuous extrusion.
 
 ![Wacław Szpakowski B9](images/waclaw_szpakowski_b9.jpg)
+An example of Szpakowski's work. B9 1926.
+
 ![Wacław Szpakowski B9 3D printed](images/b9.jpg)
+The 3D printed version of B9.
 
 The code in this repository takes in a list of points and generates gcode which can be printed on a 3D printer.
 
@@ -18,6 +21,7 @@ Note: This does require some level of knowledge of gcode and 3D printing. There 
 - Print.
 
 ![Code visualisation on Orca Slicer](images/b9_gcode_orca.png)
+Visualisation of the gcode in Orca Slicer.
 
 ## Tips/Notes
 - I used a Hilbert Curve top fill pattern for the base. This gives it a little texture and, to my eye, looks better than the normal diagional lines. Although it is significantly slower.
@@ -33,3 +37,4 @@ Note: This does require some level of knowledge of gcode and 3D printing. There 
 - `Waclaw_Szpakowski_B9_1926.svg`: SVG of the B9 artwork (from [TurtleStitch](https://turtlestitch.org/)).
 
 ![Wacław Szpakowski A1](images/waclaw_szpakowski_a1.jpg)
+Another example of Szpakowski's work. A1.
