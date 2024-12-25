@@ -10,7 +10,7 @@ An example of Szpakowski's work. B9 1926.
 The code in this repository takes in a list of points and generates gcode which can be printed on a 3D printer.
 
 ## How To Make Your Own
-Note: This requires some level of knowledge of gcode and 3D printing. There is potential to damage your 3D printer if you make a mistake. Do so at your own risk.
+**Note: This requires some level of knowledge of gcode and 3D printing. There is potential to damage your printer if you make a mistake. Do so at your own risk.**
 - You will first need a list of points that describe the artwork. This should be a CSV, one line per point with the X and Y coordinate, seperated by a comma. You can write your own, or do what I did and use one of the many examples on [TurtleStitch](https://turtlestitch.org/) by user [Elaine](https://turtlestitch.org/users/Elaine). [Searching "Szpakowski" on TurtleStitch](https://turtlestitch.org/search/projects/?q=Szpakowski) will give many options (B9 is included in this repository). Once you find a design, click on any of the orange or blue cells to generate the pattern, then export to SVG. Open the SVG in a text editor and convert all the points into CSV format.
 - Make a model of the base you want to print on. I used a simple rectangle, 0.9 mm (3 layers at 0.3 mm layer height) thick. Model a short rectangle on top that is the width of the line for the art and the length of the grid size. The width should be 1/4 the grid size. This will be used to calculate the `e_per_grid` parameter in `points_to_gcode.py`.
 - Slice the model in your slicer of choice. Put a colour change between the base and the line on top. Export gcode.
